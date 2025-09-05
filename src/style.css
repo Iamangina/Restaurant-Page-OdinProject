@@ -1,0 +1,165 @@
+body{
+    background-image: url("/src/images/background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: "Darumadrop One", sans-serif;
+    color: #5170ff;
+    display: grid;
+    grid-template: 1fr 10fr 1fr/1fr;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    gap: 150px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #d95454;
+}
+.btn{
+    background-color: #f17474;
+    border: none;
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    font-family: "Darumadrop One", sans-serif;
+    font-size: 20px;
+}
+#home{
+    border-bottom: solid 5px #5170ff;
+}
+.mainText{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin-left: 260px;
+    margin-top: 120px;
+}
+.ramen{
+    font-size: 40px;
+    margin: 0px;
+    color: #f17474;
+}
+.title{
+    font-size: 65px;
+    margin: 0px;
+    line-height: 70px;
+}
+.order{
+    background-color: #f17474;
+    border: none;
+    box-shadow: -2px 4px 0px 1px #5170ff;
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    font-family: "Darumadrop One", sans-serif;
+    font-size: 20px;  
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+a, a:visited, a:active{
+    text-decoration: none;
+    color: #5170ff;
+    color: inherit;
+}
+.menuSection{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin-left: 260px;
+    margin-top: 0px;
+}
+.ramenSoup{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    gap: 15px;
+}
+.ramen1Img{
+    background-image: url(./images/ramen1.png);
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 150px;
+}
+.ramen2Img{
+    background-image: url(./images/ramen2.png);
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 150px;
+}
+.ramen3Img{
+    background-image: url(./images/ramen3.png);
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 150px;
+}
+.ramenPrice{
+    color: #d95454;
+    font-size: 30px;
+}
+.titleRamen{
+    color: #d95454;
+}
+.ourStoryText{
+    width: 550px;
+    margin-left: 280px;
+    font-size: 25px;
+    margin-top: 0px;
+    white-space: pre-line;
+}
+.insta{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 550px;
+    margin-left: 280px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #d95454;
+}
+.instaIcon{
+    background-image: url(./images/instagram_.png);
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+.github{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 550px;
+    margin-left: 280px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #d95454;
+}
+.gitIcon{
+    background-image: url(./images/github_.png);
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+.map{
+    margin-left: 280px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+    width: 600px;
+    height: 450px;
+}
