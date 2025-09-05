@@ -3,7 +3,7 @@ https://iamangina.github.io/Restaurant-Page-OdinProject/
 # Restaurant Page - Odin Project
 
 ## Introduction
-This project is a dynamic restaurant homepage built entirely using JavaScript for DOM manipulation. By the end, all the content of the website—including the homepage, menu, and contact pages—is generated dynamically with JavaScript. Styling is done using a separate CSS file.  
+This project is a dynamic restaurant homepage built entirely using JavaScript for DOM manipulation. By the end, all the content of the website-including the homepage, menu, and contact pages-is generated dynamically with JavaScript. Styling is done using a separate CSS file.  
 
 The goal of this project is to practice creating and manipulating DOM elements, modular JavaScript, and implementing tabbed navigation functionality.
 
